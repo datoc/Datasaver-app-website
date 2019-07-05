@@ -2,9 +2,7 @@ var express = require("express");
 var path = require("path");
 var app = express();
 
-var fullPath = path.join(__dirname, "/public");
-
-app.use(express.static(fullPath));
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.set("view engine", "pug");
 app.set("views", "./views");

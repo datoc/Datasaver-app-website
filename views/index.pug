@@ -31,16 +31,32 @@ html
 				div.collapse.navbar-collapse#mycollNav
 					div.nav.navbar-nav.navbar-right
 						li
-							a(style="color: white" href="#section1") Features
+							a#c(style="color: white" href="#section1") Features
 						li
-							a(style="color: white" href="#section3") Screenshots
+							a#c(style="color: white" href="#section3") Screenshots
 						li
-							a(style="color: white" href="#section2") About
+							a#c(style="color: white" href="#section2") About
+						li.dropdown
+							a#c(style="color: white" href="javascript:void(0)" data-toggle="dropdown") Lang&nbsp;&nbsp;
+								span.caret
+								ul.dropdown-menu
+									li
+										a#enlang(href="javascript:void(0)")
+											img(src="images/usa.png" style="width: 20px;height: 15px;")
+											| &nbsp;&nbsp;&nbsp;English
+									li
+										a#gelang(href="javascript:void(0)")
+											img(src="images/georgia.png" style="width: 20px;height: 15px;")
+											| &nbsp;&nbsp;&nbsp;Georgian
+									li
+										a#rulang(href="javascript:void(0)")
+											img(src="images/russia.png" style="width: 20px;height: 15px;")
+											| &nbsp;&nbsp;&nbsp;Russian
 		div.header.col-lg-12.col-md-12.col-xs-12.col-sm-12
 			div.col-lg-4.col-md-6.col-xs-12.col-sm-12.inner
-				h1 Save your accounts in Data&nbsp;Saver
-				p Data saver helps you tu save your accounts
-				p fast, safe and easy to use
+				h1.h Save your accounts in Data&nbsp;Saver
+				p#el1 Data saver helps you tu save your accounts
+				p#el2 fast, safe and easy to use
 				br
 				a(href="#section2" style="width: 150px;")
 					button.myButton(type="button") More about software
@@ -52,28 +68,28 @@ html
 			div.container
 				h3.text-center.features-header 
 					span.bar 
-					span DataSaver Features
+					span.h DataSaver Features
 					span.bar 
 				hr
 				br
 				br
 				div.col-lg-4.col-md-4.col-sm-12.col-xs-12#d
 					img.img1.img-responsive(src="images/backchange.png")
-					h3.features-header#f1 Background change
+					h3.features-header#f1.h Background change
 
-					p.text-center Software has background changing feature<br>User can change background color<br> any time, with any color.
+					p.text-center.tc Software has background changing feature<br>User can change background color<br> any time, with any color.
 
 				div.col-lg-4.col-md-4.col-sm-12.col-xs-12#d
 					img.img1.img-responsive(src="images/fontchange.png")
-					h3.features-header#f2 Font change
+					h3.features-header#f2.h Font change
 
-					p.text-center Software has font style changing feature<br>User can change font style<br> any time, with any font style.
+					p.text-center.tc Software has font style changing feature<br>User can change font style<br> any time, with any font style.
 
 				div.col-lg-4.col-md-4.col-sm-12.col-xs-12#d
 					img.img1.img-responsive(src="images/languagechange.png")
-					h3.features-header#f1 Language change
+					h3.features-header#f1.h Language change
 
-					p.text-center Software has language changing feature<br>User can change language<br> any time. Program has only<br> 3 language support: Georgian, English and Russian.
+					p.text-center.tc Software has language changing feature<br>User can change language<br> any time. Program has only<br> 3 language support: Georgian, English and Russian.
 			br
 			br
 			br
@@ -81,7 +97,7 @@ html
 		div.doingBlock.col-lg-12.col-md-12.col-xs-12.col-sm-12#section2
 			h3.text-center.features-header 
 				span.bar 
-				span What Our Software Can To Do For You
+				span.h What Our Software Can To Do For You
 				span.bar
 			hr
 			br
@@ -92,26 +108,26 @@ html
 				div.container
 					h3.features-header 
 						span.bar 
-						span(style="margin-left: 20px") Account Save&nbsp;&nbsp;&nbsp;
+						span.h(style="margin-left: 20px") Account Save&nbsp;&nbsp;&nbsp;
 						span.bar 
-					p(style="padding: 10px;font-family: 'Lato-Regular'") You Can To Save Your Accounts Any Time. These Accounts Could Be: <strong>E-mail, Social Network</strong> <br> and etc.&nbsp;Software Do Not Uses DataBase and Network Connection.
+					p.tc(style="padding: 10px;font-family: 'Lato-Regular'") You Can To Save Your Accounts Any Time. These Accounts Could Be: <strong>E-mail, Social Network</strong> <br> and etc.&nbsp;Software Do Not Uses DataBase and Network Connection.
 					br
 					h3.features-header 
 						span.bar 
-						span(style="margin-left: 20px") Accounts Delete&nbsp;&nbsp;&nbsp;
+						span.h(style="margin-left: 20px") Accounts Delete&nbsp;&nbsp;&nbsp;
 						span.bar 
-					p(style="padding: 10px;font-family: 'Lato-Regular'") You Can To Delete Your Accounts Any Time. These Accounts Could Be: <strong>E-mail, Social Network</strong> <br> and etc.&nbsp;These Accounts Are Storing in Text file.
+					p.tc(style="padding: 10px;font-family: 'Lato-Regular'") You Can To Delete Your Accounts Any Time. These Accounts Could Be: <strong>E-mail, Social Network</strong> <br> and etc.&nbsp;These Accounts Are Storing in Text file.
 					br
 					h3.features-header 
 						span.bar 
-						span(style="margin-left: 20px") Safety&nbsp;&nbsp;&nbsp;
+						span.h(style="margin-left: 20px") Safety&nbsp;&nbsp;&nbsp;
 						span.bar 
-					p(style="padding: 10px;font-family: 'Lato-Regular'") Software Has Great Functions To Secure Your Program From Incorrect Data Entering.<br>User Must Be Authorized In Program To Show Datas.
+					p.tc(style="padding: 10px;font-family: 'Lato-Regular'") Software Has Great Functions To Secure Your Program From Incorrect Data Entering.<br>User Must Be Authorized In Program To Show Datas.
 
 		div.doingBlock.col-lg-12.col-md-12.col-xs-12.col-sm-12(style="background-image: url('images/1.png')")#section3
 			h3.text-center.features-header(style="color:white") 
 				span.bar 
-				span Software Screenshots
+				span.h Software Screenshots
 				span.bar 
 			br
 			br

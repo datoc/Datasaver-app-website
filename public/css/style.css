@@ -13,6 +13,11 @@
 	src: url("../fonts/Lato-black.ttf");
 }
 
+@font-face {
+	font-family: "mtavruli";
+	src: url("../fonts/bpg-nino-mtavruli-webfont.ttf");
+}
+
 html, body {
 	margin: 0;
 	padding: 0;
@@ -24,7 +29,7 @@ html, body {
 	border-radius: 0px;
 	color: #fff;
 	margin: 0;
-	background-color: rgba(0,0,0,0.0);
+	background-color: rgba(0, 0, 0, 0.0);
 	border: none;
 }
 
@@ -64,7 +69,7 @@ html, body {
 }
 
 .inner-image > img {
-	box-shadow: 0 0 5px rgba(0,0,0,0.6);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
 }
 
 .inner > h1, .inner > p { font-family: "Lato-bold"; }

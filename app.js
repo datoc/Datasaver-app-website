@@ -11,7 +11,7 @@ app.get("/", function(request, response) {
 	response.render("index");
 });
 
-app.listen(3000, function(err) {
+app.listen(process.env.PORT, function(err) {
 	try {
 		if(err) throw "Server starting error";
 		console.log("Server starting");
